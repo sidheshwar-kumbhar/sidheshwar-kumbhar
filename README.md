@@ -2,6 +2,19 @@ Hi, My name is **Sidheshwar Manohar Kumbhar**,
 
 I was designed layered architecture for 3 projects. I used single tone, chine of responsibility, data cache, factory design pattern.
 
+*	Worked in Agile with Scrum software development model.
+*	Reduced analysis time from 2 Minutes to 10 Seconds by using multithreading and data cache.
+*	I have used simple blockchain in product LCA Analysis.
+*	Used Jenkins for continuous integration and deployment projects on server.
+*	Created RESTful Web Services with JWT security token, JSON input and output, XML parsing using jackson API.
+*	Experience in single tone, factory, DAO, chain of responsibility design patterns and multithreading implementation.
+*	Worked on AWS EC2, S3 storage, Email service.
+*	Worked on Development Tools eclipse, (STS) Spring tool suite, Apache Tomcat, Maven.
+*	Ability to manage multiple project tasks with changing priorities and tight deadlines.
+*	An in-depth understanding of all the phases of the Software Development Life Cycle (SDLC).
+*	Created and used Linux Shell Scripts for automated deployment of projects on server from GitHub.
+*	Used Tools SVN, JIRA, BugZill, FileZill, Putty, GitHub. 
+
 Technology
 --
 * I have experience in **Microservices, java 8, Maven, Spring MVC, Spring Boot, Hibernate, MySQL, Oracle, Angular JS, Angular 8, TypeScript, RxJS, Bootstrap CSS** library for UI design. 
