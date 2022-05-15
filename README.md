@@ -2,11 +2,12 @@ Hi, My name is **Sidheshwar Manohar Kumbhar**,
 
 I was designed layered architecture for 3 projects. I used single tone, chine of responsibility, data cache, factory design pattern.
 
-Technologies
+Technology
 --
 * I have experience in **Microservices, java 8, Maven, Spring MVC, Spring Boot, Hibernate, MySQL, Oracle, Angular JS, Angular 8, TypeScript, RxJS, Bootstrap CSS** library for UI design. 
 * JSON was used for APIs communication between java and angular.
 * JWT token was used for user authentication.
+* I have experience in multi-threading. 
 
 Testing
 --
@@ -26,10 +27,8 @@ AWS cloud
 * Created Jenkins’s pipeline for CICD. I used JIRA for issue tracking and release management.
 
 
-
-
-I have experience in multi-threading. 
-
+Technology knowledge
+--
 I have knowledge of mainframe COBOL, JCL, DB2, VSAM, MS SQL Server, and .NET.
 
 Software Design
@@ -38,6 +37,7 @@ On the basis of requirements, I was creating a design approach, UI screens, Data
 
 
 - 📫 How to reach me : **sidheshwar.kumbhar@gmail.com**
+- **LinkedIn** : https://www.linkedin.com/in/sidheshwar-kumbhar-60731036/
 
 <!---
 sidheshwar-kumbhar/sidheshwar-kumbhar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
