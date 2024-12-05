@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: frist-servce
+          uri: lb://first-service
+          predicates:
+            - Path=/api/v1/first-service/**
+        - id: second-service
+          uri: lb://second-service
+          predicates:
+            - Path=/api/v1/second-service/**
+server:
+  port: 8071
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: 
+       defaultZone: http://localhost:8761/eureka      
