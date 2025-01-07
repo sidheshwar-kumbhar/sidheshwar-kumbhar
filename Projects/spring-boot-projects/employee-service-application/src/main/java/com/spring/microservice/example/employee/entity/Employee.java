@@ -29,7 +29,7 @@ public class Employee {
 	@JoinColumn(name = "address_id")
 	private Address address;
 
-	@ManyToOne(cascade=CascadeType.ALL, optional=true, fetch=FetchType.EAGER)
+	@ManyToOne(cascade = CascadeType.ALL, optional = true, fetch = FetchType.EAGER)
 	@JoinColumn(name = "department_id")
 	private Department department;
 

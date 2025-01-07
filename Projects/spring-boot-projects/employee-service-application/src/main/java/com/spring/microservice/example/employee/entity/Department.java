@@ -2,6 +2,8 @@ package com.spring.microservice.example.employee.entity;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
@@ -21,6 +23,7 @@ public class Department {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String name;
-//	@OneToMany(cascade=CascadeType.ALL, mappedBy="department", fetch=FetchType.EAGER)
-//    private List<Employee> employees;
+	@OneToMany(cascade = CascadeType.ALL, mappedBy = "department", fetch = FetchType.EAGER)
+	@JsonBackReference
+	private List<Employee> employees;
 }
