@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: apigateway
+  config:
+    import: optional:configserver:http://localhost:8000
+  profiles:
+    active: git
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///D://DEV//GitHub//git-cloud-config
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: customerservice
+          uri: lb://customerservice
+          predicates:
+            - Path=/api/v1/customer/**
+        - id: authservice
+          uri: lb://authservice
+          predicates:
+            - Path=/api/v1/auth/**
+server:
+  port: 8071
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: 
+       defaultZone: http://localhost:8761/eureka      
