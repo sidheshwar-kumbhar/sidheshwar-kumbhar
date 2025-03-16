@@ -9,8 +9,8 @@
 		<version>0.0.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<artifactId>auth-server</artifactId>
-	<name>auth-server</name>
+	<artifactId>auth-service</artifactId>
+	<name>auth-service</name>
 	<description>Demo project for Spring Boot</description>
 	<packaging>jar</packaging>
 	<properties>
