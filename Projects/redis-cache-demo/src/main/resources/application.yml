@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: redis-cache-demo
+  datasource:
+    url: jdbc:mysql://localhost:3306/redis_cache_demo?createDatabaseIfNotExist=true&useSSL=false
+    username: root
+    password: Sidhu@1424
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        ddl-auto: update
+    show-sql: true
+  devtools:
+    restart:
+      enabled: true
+      exclude: public/**
+      poll-interval: 2s
+      quiet-period: 1s
+  sql:
+    init:
+      continue-on-error: false
+  cache:
+    cache-names: cache-user
+    type: redis
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+server:
+  port: 8080
