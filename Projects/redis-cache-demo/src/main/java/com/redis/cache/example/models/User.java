@@ -1,8 +1,7 @@
 package com.redis.cache.example.models;
 
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+import java.io.Serializable;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -19,7 +18,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "tbl_user")
-public class User implements Serialization {
+public class User implements Serializable {
 	/**
 	 * 
 	 */
